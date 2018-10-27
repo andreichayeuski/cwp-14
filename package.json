@@ -1,0 +1,10 @@
+{
+  "name": "cwp-14",
+  "author": "Andrei Chayeuski",
+  "dependencies": {
+    "init": "^0.1.2",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0",
+    "tedious": "^2.6.4"
+  }
+}

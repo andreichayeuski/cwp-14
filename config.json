@@ -1,0 +1,15 @@
+{
+  "db": "features",
+  "login": "admin_cwp14",
+  "password": "cwp14",
+  "port": 1433,
+  "host": "ANDREICHAYEUSKI",
+  "dialect": "mssql",
+  "dialectOptions": {
+    "instanceName": "MSSQLSERVER"
+  },
+  "define": {
+    "timestamps": true,
+    "paranoid": true
+  }
+}
