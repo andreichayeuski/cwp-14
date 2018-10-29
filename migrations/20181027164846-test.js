@@ -3,16 +3,18 @@
 module.exports = {
 	up: (queryInterface, Sequelize) =>
     {
-		queryInterface.addColumn(
-			'films',
-			'genres',
-			Sequelize.STRING
-		);
+        return queryInterface.addColumn(
+		        'films',
+		        'genres',
+		        {
+			        type: Sequelize.INTEGER
+		        }
+	        );
 	},
 
 	down: (queryInterface, Sequelize) =>
     {
-		queryInterface.removeColumn(
+		return queryInterface.removeColumn(
 			'films',
 			'genres'
 		);
